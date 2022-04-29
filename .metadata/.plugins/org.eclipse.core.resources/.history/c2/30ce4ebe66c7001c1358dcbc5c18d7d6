@@ -1,0 +1,9 @@
+package com.TwoDArray.java;
+
+public class TwoDArray {
+public static void main(String[] args) {
+	int[]arr = {1,2,3,4,3,2,1};
+	System.out.println(arr[2]);
+	
+}
+}

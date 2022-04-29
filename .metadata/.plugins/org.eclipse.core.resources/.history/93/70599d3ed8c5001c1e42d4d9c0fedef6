@@ -1,0 +1,24 @@
+import java.io.*;
+
+public class FileHandeling {
+public static void main(String[]args) {
+	File f= new File("newfile.txt");
+	try {
+		boolean value=f.createNewFile();
+			if(value) {
+		System.out.println("this NEW file is crreated");
+		}
+		else{
+			System.out.println("this file exist");
+
+		}
+			String data ="I am writing this datd inside";
+			FileWriter fw = new FileWriter("nwedile.txt");
+			fw.writw(data)
+		System.out.println()"succesfully data return";
+	}
+
+		(Catch <Expectation e){
+			e.getSTackk†rzce>
+		}
+}

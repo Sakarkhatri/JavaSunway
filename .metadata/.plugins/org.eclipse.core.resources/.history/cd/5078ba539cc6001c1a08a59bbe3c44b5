@@ -1,0 +1,38 @@
+package com.FileHandeling.java;
+
+import java.io.File;
+import java.io.FileWriter;
+import java.util.Scanner;
+
+public class UserTest {
+	public static void main(String[] args) {
+		Scanner S1 =new Scanner(System.in);
+		System.out.println("Enter your name");
+		String name = S1.next();
+		System.out.println("Enter your address");
+		String address = S1.next();
+		
+		User u1 =new User(name,address);
+		
+		File f= new File("/Users/sakar/desktop/goodfile.txt");
+		
+		try {
+			boolean value=f.createNewFile();
+				if(value) {
+			System.out.println("this NEW file is created");
+			}
+			else{
+			System.out.println("this file already exist");
+			}
+				String data ="I am sakar";
+				FileWriter fw =new FileWriter("/Users/sakar/desktop/goodfile.txt");
+				System.out.println("data written succesfully");
+				
+				fw.close();
+		}
+		catch(Exception e) {
+			e.getStackTrace();
+		}
+	}
+	
+}

@@ -1,0 +1,13 @@
+package com.FileHandeling.java;
+
+import java.util.Scanner;
+
+public class UserTest {
+	public static void main(String[] args) {
+		Scanner S1 =new Scanner(System.in);
+		for(int i=1; i<=3; i++);
+		
+
+	
+}
+}

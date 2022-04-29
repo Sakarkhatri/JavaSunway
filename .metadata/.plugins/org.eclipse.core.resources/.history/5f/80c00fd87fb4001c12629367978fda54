@@ -1,0 +1,25 @@
+package com.assighnment;
+
+public class Differenciate {
+	
+	    public static void main(String[] args)
+	    {
+	  
+	        int i = 0;
+	  
+	        for (i = 0; i < 5; i++) {
+	            System.out.println("This is for loop");
+	        }
+	    
+	    
+	  
+	        do {
+	            i++;
+	            System.out.println("This is do loop");
+	            }
+	        
+	        while (i < 10);
+	    }
+	}
+
+

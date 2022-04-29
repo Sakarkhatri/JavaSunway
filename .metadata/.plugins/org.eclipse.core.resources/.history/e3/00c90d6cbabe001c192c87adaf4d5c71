@@ -1,0 +1,21 @@
+package com.assighnment5;
+
+public class IndexNumber {
+	public static void main(String[] args) {
+
+		  int numbers[] = new int[]{12,21,33,989,767,56,4,0,49,23};
+
+		  int smallest = numbers[0];
+		  int largetst = numbers[0];
+
+		  for (int i = 1; i < numbers.length; i++) {
+		   if (numbers[i] > largetst)
+		    largetst = numbers[i];
+		   else if (numbers[i] < smallest)
+		    smallest = numbers[i];
+		  }
+
+		  System.out.println("Largest Number is : " + largetst);
+		  System.out.println("Smallest Number is : " + smallest);
+		 }
+}

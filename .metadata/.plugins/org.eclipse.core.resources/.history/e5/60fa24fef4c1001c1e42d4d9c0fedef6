@@ -1,0 +1,37 @@
+package com.ArrayList.java;
+
+public class ClassesSunway {
+private String Type;
+private int NoOfDesk;
+private int NumberOfStudents;
+public ClassesSunway(String type, int noOfDesk, int numberOfStudents) {
+	super();
+	this.Type = type;
+	this.NoOfDesk = noOfDesk;
+	this.NumberOfStudents = numberOfStudents;
+}
+public String getType() {
+	return Type;
+}
+public void setType(String type) {
+	Type = type;
+}
+public int getNoOfDesk() {
+	return NoOfDesk;
+}
+public void setNoOfDesk(int noOfDesk) {
+	NoOfDesk = noOfDesk;
+}
+public int getNumberOfStudents() {
+	return NumberOfStudents;
+}
+public void setNumberOfStudents(int numberOfStudents) {
+	NumberOfStudents = numberOfStudents;
+}
+public void run() {
+}
+
+
+
+}
+

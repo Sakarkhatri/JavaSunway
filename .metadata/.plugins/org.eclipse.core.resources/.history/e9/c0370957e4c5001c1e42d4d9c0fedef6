@@ -1,0 +1,13 @@
+package com.FileHandeling.java;
+
+public class UserTest {
+	public static void main(String[] args) {
+		User e1 = new User("Roshan", "Bhaktaur");
+		User e2 = new User("Bibsh", "Kathmandu");
+		User e3 = new User("Pratik", "Sydney");
+		User e4 = new User("Ashish", "Bhaktapur");
+		User e5 = new User("Bibek", "Nagarkot");
+
+	
+}
+}
